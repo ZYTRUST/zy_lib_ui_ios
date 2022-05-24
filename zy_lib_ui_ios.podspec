@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Edwin Sanchez' => 'esanchez@zytrust.com' }
-  s.source           = { :git => 'https://github.com/Edwin Sanchez/zy_lib_ui_ios.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ZYTRUST/zy_lib_ui_ios.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
