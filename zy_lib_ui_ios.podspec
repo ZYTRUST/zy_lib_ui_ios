@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'zy_lib_ui_ios/Classes/**/*'
   
-   s.resource_bundles = {
-     'zy_lib_ui_ios' => ['zy_lib_ui_ios/Assets/*.png']
-   }
+   #s.resource_bundles = {
+   #  'zy_lib_ui_ios' => ['zy_lib_ui_ios/Assets/*.png']
+   #}
 
    s.resources = 'zy_lib_ui_ios/Assets/**/*.{lproj,storyboard,xcassets,png}'
    
