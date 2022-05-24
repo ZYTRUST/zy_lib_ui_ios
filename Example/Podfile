@@ -1,0 +1,9 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'zy_lib_ui_ios_Example' do
+  pod 'zy_lib_ui_ios', :path => '../'
+
+
+end
