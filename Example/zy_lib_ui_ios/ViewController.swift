@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         req.lblCancel="En otro momento"
         req.titleHexColorCancel="#43B02AFF"
         req.message = "No pudimos validar tu identidad. Por favor volver a intentarlo"
-        req.animated = false
+        req.animated = true
         
         apiUI.showConfirm(request: req)
         { (result:(ZyUIConfirmResult<Bool, Bool>)) in

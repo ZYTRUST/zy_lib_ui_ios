@@ -25,7 +25,7 @@ class ZyUIAlertApi: ZyUIAlertDelegateProtocol {
         self.callback = completion
         
         alertView = ZyUIAlertView.instantiate(fromStoryboard: "ZyUI",withBundle: type(of: self))
-        alertView.modalPresentationStyle = .fullScreen
+        alertView.modalPresentationStyle = .overCurrentContext
         alertView.request = request
         alertView.delegate = self
         vc.present(alertView,animated: request.animated, completion:{})

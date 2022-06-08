@@ -25,7 +25,7 @@ class ZyUIConfirmApi: ZyUIConfirmDelegateProtocol {
         self.callback = completion
         
         confirmView = ZyUIConfirmView.instantiate(fromStoryboard: "ZyUI",withBundle: type(of: self))
-        confirmView.modalPresentationStyle = .fullScreen
+        confirmView.modalPresentationStyle = .overCurrentContext
         confirmView.request = request
         confirmView.delegate = self
         vc.present(confirmView,animated: request.animated, completion:{})
