@@ -1,3 +1,4 @@
+   
 #
 # Be sure to run `pod lib lint zy_lib_ui_ios.podspec' to ensure this is a
 # valid spec before submitting.
@@ -8,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'zy_lib_ui_ios'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'A short description of zy_lib_ui_ios.'
 
 # This description is used to generate tags and improve search results.
@@ -24,21 +25,20 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/Edwin Sanchez/zy_lib_ui_ios'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Edwin Sanchez' => 'esanchez@zytrust.com' }
-  s.source           = { :git => 'https://github.com/Edwin Sanchez/zy_lib_ui_ios.git', :tag => s.version.to_s }
+  s.author           = { 'Ivan Caceres' => 'icaceres@zytrust.com' }
+  s.source           = { :git => 'https://github.com/ZYTRUST/zy_lib_ui_ios.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'zy_lib_ui_ios/Classes/**/*'
   
-   s.resource_bundles = {
-     'zy_lib_ui_ios' => ['zy_lib_ui_ios/Assets/*.png']
-   }
+   #s.resource_bundles = {
+   #  'zy_lib_ui_ios' => ['zy_lib_ui_ios/Assets/*.png']
+   #}
 
    s.resources = 'zy_lib_ui_ios/Assets/**/*.{lproj,storyboard,xcassets,png}'
    
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-end
