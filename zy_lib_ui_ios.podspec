@@ -1,4 +1,3 @@
-   
 #
 # Be sure to run `pod lib lint zy_lib_ui_ios.podspec' to ensure this is a
 # valid spec before submitting.
@@ -9,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'zy_lib_ui_ios'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = 'A short description of zy_lib_ui_ios.'
 
 # This description is used to generate tags and improve search results.
@@ -22,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Edwin Sanchez/zy_lib_ui_ios'
+  s.homepage         = 'https://github.com/Ivan Caceres/zy_lib_ui_ios'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ivan Caceres' => 'icaceres@zytrust.com' }
@@ -42,3 +41,4 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+end
