@@ -21,7 +21,7 @@ class ZyUIAlertView: UIViewController {
     @IBAction func onPressedOk(_ sender: Any) {
         if self.delegate != nil {
             self.delegate?.ok(data: "OK")
-            dismiss(animated: request.animated, completion: nil)
+            self.dismissMe(animated: request.animated, completion: nil)
         }
     }
     

@@ -61,3 +61,22 @@ extension UIColor {
         return nil
     }
 }
+
+extension UIViewController {
+    func dismissMe(animated: Bool, completion: (()->())?) {
+        var count = 0
+        if let c = self.navigationController?.viewControllers.count {
+            count = c
+        }
+        if count > 1 {
+            print("Zy_ ==>>> popViewController")
+            self.navigationController?.popViewController(animated: animated)
+            if let handler = completion {
+                handler()
+            }
+        } else {
+            print("Zy_ ==>>> dismiss")
+            dismiss(animated: animated, completion: completion)
+        }
+    }
+}

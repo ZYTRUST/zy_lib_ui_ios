@@ -186,7 +186,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Warning" width="36.5" height="35"/>
+        <image name="Warning" width="109" height="105"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

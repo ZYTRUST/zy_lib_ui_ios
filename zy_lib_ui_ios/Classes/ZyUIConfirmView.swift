@@ -8,11 +8,13 @@
 import Foundation
 
 protocol ZyUIConfirmDelegateProtocol{
+    
     func ok(data:String)
     func cancel(data:String)
 }
 
 class ZyUIConfirmView: UIViewController{
+    
     
     @IBOutlet weak var lblMessage: UILabel!
     @IBOutlet weak var btnOk: UIButton!
@@ -21,20 +23,19 @@ class ZyUIConfirmView: UIViewController{
     @IBAction func onPressedOk(_ sender: Any) {
         if self.delegate != nil {
             self.delegate?.ok(data: "OK")
-            dismiss(animated: request.animated, completion: nil)
+            self.dismissMe(animated: request.animated, completion: nil)
         }
     }
     
     @IBAction func onPressedCancel(_ sender: Any) {
         if self.delegate != nil {
             self.delegate?.cancel(data: "OK")
-            dismiss(animated: request.animated, completion: nil)
+            self.dismissMe(animated: request.animated, completion: nil)
         }
     }
     
     var request = ZyUIRequest()
     var delegate : ZyUIConfirmDelegateProtocol? = nil
-    private var vc: UIViewController!
     
     override func viewDidLoad() {
         super.viewDidLoad()
