@@ -11,11 +11,10 @@ protocol ZyUIAlertDelegateProtocol{
     func ok(data:String)
 }
 
-class ZyUIAlertView: UIViewController {
+class ZyUIAlertView: ParentViewController {
     
     @IBOutlet weak var lblMessage: UILabel!
     @IBOutlet weak var btnOk: UIButton!
-    
     @IBOutlet weak var lblDescripcion: UILabel!
     
     @IBAction func onPressedOk(_ sender: Any) {
@@ -31,8 +30,13 @@ class ZyUIAlertView: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         lblMessage.text = request.message
+        lblMessage.fontRegular()
+        
         lblDescripcion.text = request.description
+        lblDescripcion.fontRegular()
+        
         btnOk.setTitle(request.lblOk, for: .normal)
         btnOk.setTitleColor(UIColor(hex: request.titleHexColorOk), for: .normal)
         btnOk.backgroundColor = UIColor(hex: request.bgHexColorOk)

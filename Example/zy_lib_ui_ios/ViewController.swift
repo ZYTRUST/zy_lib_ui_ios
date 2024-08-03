@@ -36,9 +36,9 @@ class ViewController: UIViewController {
         var req = ZyUIRequest()
         req.lblOk="Entendido"
         req.titleHexColorOk="#FFFFFFFF"
-        req.bgHexColorOk="#43B02AFF"
+        req.bgHexColorOk="#925AF5FF"
         req.lblCancel="En otro momento"
-        req.titleHexColorCancel="#43B02AFF"
+        req.titleHexColorCancel="#925AF5FF"
         req.message = "No pudimos validar tu identidad. Por favor volver a intentarlo"
         req.animated = true
         
@@ -58,7 +58,7 @@ class ViewController: UIViewController {
         var req = ZyUIRequest()
         req.lblOk="Entendido ok"
         req.titleHexColorOk="#FFFFFFFF"
-        req.bgHexColorOk="#43B02AFF"
+        req.bgHexColorOk="#925AF5FF"
         req.message = "Superaste la maxima cantidad de intentos"
         req.description = "No pudimos validar tu identidad iintentalo nuevamente mas tarde"
         req.animated = true

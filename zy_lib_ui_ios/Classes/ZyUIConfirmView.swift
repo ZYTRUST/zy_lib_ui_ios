@@ -13,8 +13,7 @@ protocol ZyUIConfirmDelegateProtocol{
     func cancel(data:String)
 }
 
-class ZyUIConfirmView: UIViewController{
-    
+class ZyUIConfirmView: ParentViewController{
     
     @IBOutlet weak var lblMessage: UILabel!
     @IBOutlet weak var btnOk: UIButton!
@@ -40,13 +39,14 @@ class ZyUIConfirmView: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         lblMessage.text = request.message
+        lblMessage.textColor = UIColor(resource: ColorResource.greyDark)
+        lblMessage.fontRegular()
+        
         btnOk.setTitle(request.lblOk, for: .normal)
-        btnOk.setTitleColor(UIColor(hex: request.titleHexColorOk), for: .normal)
-        btnOk.backgroundColor = UIColor(hex: request.bgHexColorOk)
         
         btnCancel.setTitleColor(UIColor(hex: request.titleHexColorCancel), for: .normal)
         btnCancel.backgroundColor = UIColor(hex: request.bgHexColorCancel)
         btnCancel.setTitle(request.lblCancel, for: .normal)
+        
     }
-    
 }

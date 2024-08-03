@@ -17,7 +17,6 @@
 
 /* Begin PBXFileReference section */
 		00206579D32E0B9B1EEE386F /* Pods_zy_lib_ui_ios_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zy_lib_ui_ios_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D4C3D3A242492ACB2F14FE2 /* Pods-zy_lib_ui_ios_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zy_lib_ui_ios_Tests.debug.xcconfig"; path = "Target Support Files/Pods-zy_lib_ui_ios_Tests/Pods-zy_lib_ui_ios_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* zy_lib_ui_ios_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zy_lib_ui_ios_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -28,7 +27,6 @@
 		6F7DDB8E4FAC6FF53327A4A3 /* Pods-zy_lib_ui_ios_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zy_lib_ui_ios_Example.release.xcconfig"; path = "Target Support Files/Pods-zy_lib_ui_ios_Example/Pods-zy_lib_ui_ios_Example.release.xcconfig"; sourceTree = "<group>"; };
 		739F21596553F22C520A2865 /* Pods-zy_lib_ui_ios_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zy_lib_ui_ios_Example.debug.xcconfig"; path = "Target Support Files/Pods-zy_lib_ui_ios_Example/Pods-zy_lib_ui_ios_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8E758C00EF67C139444F4EE3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A731BB2366C3CE757D914A99 /* Pods-zy_lib_ui_ios_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zy_lib_ui_ios_Tests.release.xcconfig"; path = "Target Support Files/Pods-zy_lib_ui_ios_Tests/Pods-zy_lib_ui_ios_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BA91EE7955F2DBBEDF2144FD /* zy_lib_ui_ios.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = zy_lib_ui_ios.podspec; path = ../zy_lib_ui_ios.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D28E6B75C7C75C3ED74E1868 /* Pods_zy_lib_ui_ios_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zy_lib_ui_ios_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11AD0A9B5CBE2E448489BB9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -102,8 +100,6 @@
 			children = (
 				739F21596553F22C520A2865 /* Pods-zy_lib_ui_ios_Example.debug.xcconfig */,
 				6F7DDB8E4FAC6FF53327A4A3 /* Pods-zy_lib_ui_ios_Example.release.xcconfig */,
-				2D4C3D3A242492ACB2F14FE2 /* Pods-zy_lib_ui_ios_Tests.debug.xcconfig */,
-				A731BB2366C3CE757D914A99 /* Pods-zy_lib_ui_ios_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -308,7 +304,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -354,7 +350,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -369,12 +365,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 23WN72KD4H;
 				INFOPLIST_FILE = zy_lib_ui_ios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zy.bm.biomatchone.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -385,12 +382,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 23WN72KD4H;
 				INFOPLIST_FILE = zy_lib_ui_ios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zy.bm.biomatchone.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

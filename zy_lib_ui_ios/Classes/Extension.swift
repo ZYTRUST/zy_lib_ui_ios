@@ -80,3 +80,11 @@ extension UIViewController {
         }
     }
 }
+
+extension UILabel {
+    func fontRegular(){
+        self.font = UIFont(name: "Lato-Regular", size: 20)
+    }
+}
+
+

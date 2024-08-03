@@ -15,10 +15,10 @@ public struct ZyUIRequest{
     
     public var lblOk: String?
     public var titleHexColorOk: String="#FFFFFFFF"
-    public var bgHexColorOk: String="#43B02AFF"
+    public var bgHexColorOk: String="#925AF5FF"
     
     public var lblCancel: String?
-    public var titleHexColorCancel: String="#43B02AFF"
+    public var titleHexColorCancel: String="#925AF5FF"
     public var bgHexColorCancel: String="" //no background default
     
     public var animated: Bool=true
