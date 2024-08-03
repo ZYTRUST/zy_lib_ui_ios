@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'zy_lib_ui_ios'
-    s.version          = '1.0.1'
+    s.version          = '1.0.2'
     s.summary          = 'BANBIF UI LIB'
     
     # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
     s.homepage         = 'https://www.zytrust.com'
     # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
-    s.author           = { 'Ivan Caceres' => 'ztmobile@zytrust.com' }
+    s.author           = { 'Ivan Caceres' => 'icaceres@zytrust.com' }
     s.source           = { :git => 'https://github.com/ZYTRUST/zy_lib_ui_ios.git', :tag => s.version.to_s }
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
     
