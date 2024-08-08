@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'zy_lib_ui_ios'
-    s.version          = '1.0.2'
+    s.version          = '1.0.3'
     s.summary          = 'BANBIF UI LIB'
     
     # This description is used to generate tags and improve search results.
