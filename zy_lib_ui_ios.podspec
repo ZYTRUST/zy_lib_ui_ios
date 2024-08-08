@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'zy_lib_ui_ios'
-    s.version          = '1.0.3'
+    s.version          = '1.0.4'
     s.summary          = 'BANBIF UI LIB'
     
     # This description is used to generate tags and improve search results.
@@ -41,7 +41,6 @@ Pod::Spec.new do |s|
     }
     
     s.resources = ['zy_lib_ui_ios/Assets/**/*.{lproj,storyboard,xcassets,png}', 'zy_lib_ui_ios/Assets/Resources/Fonts/**/*.ttf']
-
     # s.public_header_files = 'Pod/Classes/**/*.h'
     # s.frameworks = 'UIKit', 'MapKit'
     # s.dependency 'AFNetworking', '~> 2.3'

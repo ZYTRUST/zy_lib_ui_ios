@@ -1,0 +1,16 @@
+PODS:
+  - zy_lib_ui_ios (0.2.5)
+
+DEPENDENCIES:
+  - zy_lib_ui_ios (from `../`)
+
+EXTERNAL SOURCES:
+  zy_lib_ui_ios:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  zy_lib_ui_ios: 2be902ef41b0d5819e7b5c6bb3539700d6f4d979
+
+PODFILE CHECKSUM: 4b6d3cdf1555547f38e87a12582dd86b18a2941d
+
+COCOAPODS: 1.12.1
